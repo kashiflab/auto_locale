@@ -9,13 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  auto_locale:
-    path: ../../auto_locale
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  auto_locale:
+    path: ../../auto_locale
 
 flutter:
   uses-material-design: true
