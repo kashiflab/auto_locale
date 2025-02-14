@@ -1,0 +1,26 @@
+name: auto_locale
+description: "A Flutter package for automating localization using Google Translate API."
+version: 0.0.1
+# homepage:
+
+environment:
+  sdk: ^3.5.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.0  # For making API requests
+  path_provider: ^2.0.0  # For file storage
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/locales/
+
+executables:
+  auto_locale: auto_locale
